@@ -3,6 +3,7 @@
 #### 에러 발생 ####
 ERR max number of clients 에러가 발생했다.  
 매번 클라이언트의 수가 하나씩 증가했고, Establish 상태를 유지했다.
+<img width="1017" alt="스크린샷 2024-08-06 오전 1 48 54" src="https://github.com/user-attachments/assets/1139e6d9-edf7-441d-83d4-06d816a26951">
 
 #### 긴급 조치 ####
 긴급조치로 timeout을 설정해 유휴상태가 100초 이상이면 연결이 끊기도록 했다.  
